@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slides.css">
+    <title>Infonext Sistemas</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="./asserts/images/logoOrion.png.png" alt="Infonext Sistemas" class="logoOrion">
+            <h1 class="title">INFONEXT SISTEMAS DE INFORMÁTICA LTDA</h1>
+        </div>
+
+        <div id="buttons-social">
+            <a href="https://www.linkedin.com/company/infonext-sistemas/?viewAsMember=true" target="_blank">
+                <button class="btn-linkedin">
+                    <img src="./asserts/images/linkedin.png" class="iconLinkedin">
+                </button>
+            </a>
+            <a>
+                <button class="btn-instagram">
+                    <img src="./asserts/images/instagram.png" class="iconInstagram">
+                </button>
+            </a>
+        </div>
+
+        <div id="main">
+            <div class="buttons-options">
+                <button class="quemSomos" onclick="mostrarSlide(1)">𝗔𝗽𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝗰̧𝗮̃𝗼</button>
+                <button class="quemSomos" onclick="mostrarSlide(2)">𝗤𝘂𝗲𝗺 𝘀𝗼𝗺𝗼𝘀?</button>
+                <button class="nossaHistoria" onclick="mostrarSlide(3)">𝗡𝗼𝘀𝘀𝗮 𝗵𝗶𝘀𝘁𝗼́𝗿𝗶𝗮</button>
+                <button class="servicos" onclick="mostrarSlide(4)">𝗦𝗲𝗿𝘃𝗶𝗰̧𝗼𝘀</button>
+                <button class="contato" onclick="mostrarSlide(5)">𝗖𝗼𝗻𝘁𝗮𝘁𝗼</button>
+                <button class="equipe" onclick="mostrarSlide(6)">𝗘𝗾𝘂𝗶𝗽𝗲</button>
+            </div>
+
+        </div>
+
+        <section class="slider">
+            
+            <div class="slider-content">
+
+                <input type="radio" name="btn-radio" id="radio1" checked>
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <input type="radio" name="btn-radio" id="radio4">
+                <input type="radio" name="btn-radio" id="radio5">
+                <input type="radio" name="btn-radio" id="radio6">
+
+                <div class="slide-box primeiro" style="background-color: lightcoral;">
+                    <h2>Slide 1</h2>
+                </div>
+
+                <div class="slide-box" style="background-color: lightblue;">
+                    <h2>Slide 2</h2>
+                </div>
+                
+                <div class="slide-box" style="background-color: lightpink;">
+                    <h2>Slide 3</h2>
+                </div>
+
+                <div class="slide-box" style="background-color: lightgoldenrodyellow;">
+                    <h2>Slide 4</h2>
+                </div>
+
+                <div class="slide-box" style="background-color: lightseagreen;">
+                    <h2>Slide 5</h2>
+                </div>
+
+                <div class="slide-box" style="background-color: lightgrey;">
+                    <h2>Slide 6</h2>
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                    <div class="auto-btn6"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>                  
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                    <label for="radio6" class="manual-btn"></label>
+
+                </div>
+
+            </div>
+        
+        </section>
+
+        <div></div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

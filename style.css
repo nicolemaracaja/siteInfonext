@@ -1,0 +1,83 @@
+body{
+    background-color: #F8F8FF;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoOrion{
+    margin-top: 30px;
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 45px;
+}
+
+#buttons-social{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+    margin-right: 60px;
+    gap: 10px;
+}
+
+.btn-linkedin, .btn-instagram{
+    padding: 7px 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.iconLinkedin, .iconInstagram{
+    width: 20px;
+    height: 20px;
+}
+
+.imageBanner{
+    margin-top: 50px;
+    width: 1500px;
+    height: 500px;
+}
+
+#main{
+    margin-left: -10px;
+    margin-top: 40px;
+    width: 2000px;
+    height: 80px;
+    background-color:#116798;
+}
+
+.buttons-options{
+    position: relative;
+    display: flex;
+    gap: 120px;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.apresentacao, .quemSomos, .nossaHistoria, .servicos, .contato, .equipe{
+    font-size: 15px;
+    color: white;
+    background-color:#116798;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #4a4e69;
+    transform: scale(1.1);
+}
+
